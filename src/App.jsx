@@ -10,6 +10,8 @@ import ProfilePicture from "./ProfilePicture";
 import MyComponent from "./MyComponent";
 import Counter from "./Counter";
 import ColorPicker from "./ColorPicker";
+import Timer from "./Timer";
+import Search from "./Search";
 
 function App() {
     // const fruits = [
@@ -29,7 +31,9 @@ function App() {
 
     return (
         <>
-            <MyComponent />
+            <Search />
+            {/* <Timer /> */}
+            {/* <MyComponent /> */}
             {/* <ColorPicker /> */}
             {/* <Counter /> */}
             {/* {fruits.length > 0 ? (
